@@ -1,0 +1,21 @@
+{
+	"name": "smtp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"mailparser": "^2.7.7",
+		"mysql": "^2.17.1",
+		"parse-function": "^5.5.1",
+		"simple-node-logger": "^18.12.24",
+		"smtp-server": "^3.5.0"
+	}
+}
